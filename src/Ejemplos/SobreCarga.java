@@ -8,9 +8,17 @@ package Ejemplos;
 public class SobreCarga {
     int num1;
     int num2;
+    int num3;
+    int num4;
     public SobreCarga(int n1, int n2){
         this.num1 = n1;
         this.num2 = n2;
+    }
+    public SobreCarga(int n1, int n2, int n3, int n4){
+        this.num1 = n1;
+        this.num2 = n2;
+        this.num3 = n3;
+        this.num4 = n4;
     }
     public int numerosOperaciones(int n1,int n2){
         int suma=n1+n2;
