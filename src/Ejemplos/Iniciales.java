@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Yahel M
  */
-public class NombreGit {
+public class Iniciales {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String nombre;
